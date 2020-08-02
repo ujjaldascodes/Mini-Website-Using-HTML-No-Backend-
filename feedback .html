@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <h2>Feedback</h2>
+    <title>Feedback Form</title>
+  </head>
+  <body style="background-color:#03f42b47;">
+    <form action="mailto:dasofficial700056@gmail.com" method="post" enctype="text/plain">
+      First name <input type="text" name="firstname" value="" placeholder="John" required>
+      Middle name <input type="text" name="middlename" value="" placeholder="Kumar">
+      Last name <input type="text" name="lastname" value="" placeholder="Smith" required><br>
+      Email <input type="email" name="" value="" placeholder="abc123@gmail.com" required> <br>
+      Date of birth <input type="date" name="" value=""><br>
+      Gender:<br>
+		<input type="radio" name="gender" value="Male">Male<br>
+		<input type="radio" name="gender" value="Female">Female<br>
+		<input type="radio" name="gender" value="Other">Other<br>
+    Mobile Brand: <br>
+		<select name="Mobilebrand">
+			<option value="select" >select</option>
+			<option value="Xiaomi">Xiaomi</option>
+      <option value="Realme">Realme</option>
+      <option value="Oppo">Oppo</option>
+      <option value="Vivo">Vivo</option>
+      <option value="Samsung">samsung</option>
+      <option value="Others">Others</option><br>
+      <br>
+		</select><br>
+    <br>
+    Upload <input type="file" name="fileupload" value=""><br>
+    <br>
+    <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+    <label for="checkbox">I agree to the terms and conditions</label>
+      <input type="checkbox" name="checkbox" id="checkbox" /><br>
+      <br>
+      <input type="submit" value="Submit" />
+    </form>
+
+  </body>
+</html>
